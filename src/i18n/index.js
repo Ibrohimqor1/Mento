@@ -6,7 +6,9 @@ import {
 import { initReactI18next } from "react-i18next";
 import Russian from "./translations/ru/translation.json";
 import Uzbek from "./translations/uz/translation.json";
-i18n
+i18n  
+
+
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
