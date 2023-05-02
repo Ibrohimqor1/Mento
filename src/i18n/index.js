@@ -9,6 +9,9 @@ import Uzbek from "./translations/uz/translation.json";
 i18n  
 
 
+
+
+
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
